@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background:#f7f6f6;
+}
+
+nav{
+    width: 100%;
+    background-color: #022144;
+    position: fixed !important;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.nav-link {   
+    margin: 15px;
+}
+
+.nav-link:hover{
+    background: #032d5e;
+    border-radius: 5px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.container-fluid{
+    padding: 15px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.build{
+    width: 100%;
+    height: 300px;
+    background: #022144;
+    color: #f0eded;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 30px;
+    position: relative;
+    top: 88px;
+}
+
+.building_tech{
+    font-weight: bold;
+}
+
+.home{
+    color: #11115e !important;
+}
+
+.home_training{
+    width: 200px;
+    color: #11111186;
+    display: flex;
+    list-style: none;
+    margin-top: 90px;
+}
+
+.home_training li{
+    margin: 6px;
+}
+
+.card-title{
+    color: #0c2253e0 !important;
+}
+
+.btn{
+    border-radius: none !important;
+}
+
+.pricing{
+    color: #2196f3;
+}
+
+.price{
+   font-weight: bold;
+    color: #df323b;
+}
+
+.holder{
+    justify-content: space-evenly;
+}
+
+.container_two {
+    width: 100%;
+    height: 450px;
+    background: #022144;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_2 {
+    width: 33%;
+    height: 380px;
+    color: #ffffff;
+    padding: 40px 60px;
+    font-size: 16px;
+    line-height: 1.5em;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    line-height: 2em;
+}
+
+.social_media{
+    list-style: square;
+    margin-left: 25px;
+}
+
+footer{
+    height: 83px;
+    padding: 20px;
+    text-align: center;
+    background: #022144;
+    color: #ffffff;
+    font-size: 20px !important;
+}
+
+
+
+@media screen and (min-width: 960px) and (max-width: 1125px) {
+    .container_two {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .container_two{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .container_two {
+        height: 1020px;
+        display: block;
+        justify-content: center;
+        }
+
+    .box_2 {
+        height: 290px;
+        width: 100%;
+    }
+}
+    
